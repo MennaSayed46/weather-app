@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/webfonts">
+    <link rel="stylesheet" href="contact.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- fonts alert -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body id="body">
+
+    <div class="container mt-5 mb-5 ">
+
+        <section class="nav d-flex justify-content-between ">
+            <div class="logo d-flex flex-row">
+                <img src="imgs/logo@2x.png" alt="weather logo">
+                <div class="caption ms-3">
+                    <p class="weather text-capitalize mb-1 ">company name</p>
+                    <p class="tagline mt-0">tagline goes here</p>
+                </div>
+            </div>
+
+            <div class="navbar">
+
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a href="index.html" class="anchor"> <button class=" homeNav nav-link active px-4 py-1 me-2"
+                                id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button"
+                                role="tab" aria-controls="pills-home" aria-selected="true">Home</button></a>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class=" news nav-link px-4 py-1 me-2" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">News</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class="liveCameras  nav-link px-4 py-1 me-2" id="pills-contact-tab"
+                            data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Live Cameras</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class=" photos nav-link px-4 py-1 me-2" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Photos</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <a href="contact.html" class="anchor"> <button class="nav-link px-4 py-1 me-2" id="pills-contact-tab"
+                                data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab"
+                                aria-controls="pills-contact" aria-selected="false">Contacts</button></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <div class="parent">
+        <div class="container">
+            <div class="asInput p-3 d-flex">
+                <a href="index.html" class="text-capitalize" class="home">home &#32;</a>
+                <span class="text-capitalize contacts"> <span class="entity px-2">&#8594;</span> contacts </span>
+            </div>
+        </div>
+
+
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="card mx-5 px-2 ">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8828515211!2d-118.74138730590087!3d34.02003922714877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA%2C%20USA!5e0!3m2!1sen!2seg!4v1719452562393!5m2!1sen!2seg"
+                            class="mb-4" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="desc d-flex flex-column p-2">
+                            <div class="caption d-flex ">
+                                <i class="fa-solid fa-location-dot pe-3"></i>
+                                <div class="d- flex-column">
+                                    <p class="mb-0 pb-0">Company Name INC.</p>
+                                    <p class="mt-0 pt-0">2803 Avenue Street, Los Angeles</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex">
+
+                                <div class="d-flex me-3">
+                                    <i class="fa-solid fa-phone pe-3"></i>
+                                    <p>+1 800 314 235</p>
+
+                                </div>
+
+                                <div class="d-flex">
+                                    <i class="fa-solid fa-envelope pe-3"></i>
+                                    <p>contact@companyname.com</p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="secCard mx-5">
+                        <p class="text-capitalize contactsUs">Contact us</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur
+                            inventore ducimus,
+                            facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi
+                            facilis
+                            odit
+                            hic, ipsum sed!</p>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Your name..." class="form-control p-2 pe-1 mb-2 "
+                                        id="name">
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="email adress..." class="form-control p-2 pe-1 mb-2 "
+                                        id="email">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Company name..." class="form-control p-2 pe-1 mb-2 "
+                                        id="companyName">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Website..." class="form-control p-2 pe-1 mb-2 "
+                                        id="website">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea name="Message" id="Message" placeholder="Message..." rows="5"
+                                        class="w-100 px-2 pt-3 pb-5 mb-2"></textarea>
+                                </div>
+                                <p class="Success text-center d-none">Success</p>
+                                <button type="submit" class="w-25 ms-auto py-2 rounded-5 btnSubmit"
+                                    id="submit">submit</button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="site-footer  ">
+            <div class="container">
+                <div class="row d-flex flex-row pb-5 pt-5">
+                    <div class="col-lg-8 ">
+                        <div class="emailCard position-relative ">
+                            <label for="emailInput"></label>
+                            <input type="text" class="form-control " id="emailInput"
+                                placeholder="Enter your email to subscribe...">
+                            <button type="button" class="btn btn-danger position-absolute "
+                                id="submit">Subscribe</button>
+
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="social-media mx-auto d-flex justify-content-center align-items-center mt-4 ">
+                            <i class="fa-brands fa-facebook-f fa-2xl me-3 "></i>
+                            <i class="fa-brands fa-twitter fa-2xl me-3 "></i>
+                            <i class="fa-brands fa-google-plus fa-2xl me-3"></i>
+                            <i class="fa-brands fa-pinterest fa-2xl me-3 "></i>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-8">
+                        <p class=" mt-4 copyRights">Copyright 2014 Company name. Designed by Themezy. All rights
+                            reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="warning p-2 d-none  w-25 pb-0  ">
+            <div class="icones d-flex justify-content-between">
+                <div class="cap">
+                    <p class="status">status</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-circle text-info me-1"></i>
+                    <i class="fa-solid fa-circle text-danger me-1"></i>
+                    <i class="fa-solid fa-circle text-primary me-1"></i>
+                </div>
+            </div>
+            <p class="mt-3 requiredParagrph text-capitalize">all inputs is required</p>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+    <div class="navPages d-none p-3 w-25 bg-light position-absolute ">
+        <p class="pageNotFound">Page Not Found</p>
+        <p class="desc">Looks like you've followed a broken link or entered a URL that doesn't exist on this site.
+        </p>
+        <p><i class="fa-solid fa-less-than"></i> <a href="index.html" class="Back">Back to our site</a></p>
+        <hr>
+        <p class="err404">If this is your site, and you weren't expecting a 404 for this path, please visit
+            Netlify's <a
+                href="https://answers.netlify.com/t/support-guide-i-ve-deployed-my-site-but-i-still-see-page-not-found/125?utm_source=404page&utm_campaign=community_tracking"
+                class="supportGuide">"page
+                not found" support guide</a> for troubleshooting tips.</p>
+
+    </div>
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="contacts.js"></script>
+</body>
+
+</html>

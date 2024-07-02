@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather menna</title>
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/webfonts">
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container mt-5 ">
+
+        <section class="nav d-flex justify-content-between ">
+            <div class="logo d-flex flex-row">
+                <img src="imgs/logo@2x.png" alt="weather logo">
+                <div class="caption ms-3">
+                    <p class="weather text-capitalize mb-1">weather</p>
+                    <p class="tagline mt-0">tagline goes here</p>
+                </div>
+            </div>
+
+            <div class="navbar">
+
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active px-4 py-1 me-2" id="pills-home-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                            aria-selected="true">Home</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class="nav-link px-4 py-1 me-2" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">News</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class="nav-link px-4 py-1 me-2" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Live Cameras</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <button class="nav-link px-4 py-1 me-2" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Photos</button>
+                    </li>
+
+                    <li class="nav-item nav-items-rest" role="presentation">
+                        <a href="contact.html"><button class="nav-link px-4 py-1 me-2" id="pills-contact-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                            aria-selected="false">Contacts</button></a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="container mt-4">
+            <div class=" pt-4 position-relative ">
+                <label for="searchTerm"></label>
+                <input type="text" class="form-control mt-5 py-3 " id="searchTerm" placeholder="Find your location...">
+                <button type="button" class="btn btn-primary position-absolute mt-5 px-4">Find</button>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+    <div class="container mt-5  cards">
+
+        <div class="row g-0 ">
+
+            <div class="col-lg-4  ">
+                <div class="card ">
+                    <div class="date px-2 d-flex justify-content-between">
+                        <p id="today">day</p>
+                        <p id="todayDate"><span id="todayNumber" class="pe-1">26 </span><span id="todayMonth" >month</span></p>
+                    </div>
+                    <div class="details px-3 pt-4">
+                        <p class="place mb-0 pb-0" id="location">Place</p>
+                        <p class="temperature pt-0" ><span id="todayTemperature">2</span>&#176;C</p>
+                        <img src="imgs/113.png" alt="moon" id="todayConditionImg"> <!--will be change-->
+                        <p class="clear" id="todayConditionDesc">clear</p>
+                        <div class="directions d-flex flex-row">
+                            <div class="umberella d-flex p-1 me-3">
+                                <img src="imgs/icon-umberella.png" alt="umberella icone">
+                                <p class="p-1" id="percentage-wind">percentage</p>
+                            </div>
+                            <div class="speedWind d-flex p-1 me-3">
+                                <img src="imgs/icon-wind.png" alt="wind icone">
+                                <p class="p-1" id="speed">speed</p>
+                            </div>
+                            <div class="direct d-flex p-1 me-3">
+                                <img src="imgs/icon-compass.png" alt="direction-icone">
+                                <p class="p-1" id="direction"> direct</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <div class="col-lg-4  ">
+                <div class="card h-100">
+                    <div class=" date dateSecCard px-2 d-flex justify-content-center">
+                        <p class="nextDay" id="nextDayName">day</p>
+                    </div>
+                    <div
+                        class="details pt-5 detailsSecCard d-flex flex-column justify-content-center align-items-center">
+                        <img src="imgs/113 (1).png" alt="sun" class="mb-3" id="nextDayConditionImg">
+                        <p class="morning-temp mb-0" id="nextDayMorningTemp">mor-temp</p>
+                        <p class="evening-temp" id="nextDayEveningTemp">ev-temp</p>
+                        <p class="sunnySecCard" id="nextDayConditionDesc">Sunny</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4  ">
+                <div class="card thirdCard h-100">
+                    <div class=" date dateThirdCard px-2 d-flex justify-content-center">
+                        <p id="lastDayName">day</p>
+                    </div>
+                    <div
+                        class="details pt-5 detailsThirdCard d-flex flex-column justify-content-center align-items-center">
+                        <img src="imgs/113 (1).png" alt="sun" class="mb-3" id="lastDayConditionImg">
+                        <p class="morning-temp mb-0" id="lastDayMorningTemp">mor-temp</p>
+                        <p class="evening-temp" id="lastDayEveningTemp">ev-temp</p>
+                        <p class="sunnySecCard" id="lastDayConditionDesc">Sunny</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="site-footer  ">
+        <div class="container">
+            <div class="row d-flex flex-row pb-5 pt-5">
+                <div class="col-lg-8 ">
+                    <div class="emailCard position-relative ">
+                        <label for="emailInput"></label>
+                        <input type="text" class="form-control " id="emailInput"
+                            placeholder="Enter your email to subscribe...">
+                        <button type="button" class="btn btn-danger position-absolute ">Subscribe</button>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="social-media mx-auto d-flex justify-content-center align-items-center mt-4 ">
+                        <i class="fa-brands fa-facebook-f fa-2xl me-3 "></i>
+                        <i class="fa-brands fa-twitter fa-2xl me-3 "></i>
+                        <i class="fa-brands fa-google-plus fa-2xl me-3"></i>
+                        <i class="fa-brands fa-pinterest fa-2xl me-3 "></i>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-8">
+                    <p class=" mt-4 copyRights">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="home.js"></script>
+</body>
+
+</html>

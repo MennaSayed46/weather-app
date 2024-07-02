@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #bfc1c8;
+}
+
+.home {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #bfc1c8;
+}
+
+.contacts {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+}
+
+
+body {
+    background-color: #1e202c;
+}
+
+.tagline {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #bfc1c8;
+}
+
+
+.weather {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.logo img {
+    width: 64px;
+    height: 38px;
+
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #009ad8;
+    background-color: transparent;
+    border: 2px solid #009ad8;
+    border-radius: 15px;
+}
+
+.nav-items-rest .nav-link {
+    color: white;
+}
+
+.anchor{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-item:hover {
+    color: #009ad8;
+    border: 2px solid #009ad8;
+    border-radius: 15px;
+    transition: 0ms all ease-in;
+}
+
+.asInput {
+    background-color: #262a36 !important;
+    border: 1px #1e202c solid !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+
+
+}
+
+input::placeholder {
+    color: #757575 !important;
+    padding-inline: 5px;
+    /* padding-block: 50px; */
+}
+
+
+.card {
+    background-color: #262a36;
+}
+
+.card iframe {
+    visibility: hidden;
+}
+
+.card i {
+    font-size: 14px;
+    line-height: 21px;
+    color: #009ad8;
+    width: 19px;
+    height: 19px;
+
+}
+
+.card p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #bfc1c8;
+
+}
+
+.contactsUs {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.lorem {
+    color: #bfc1c8;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.secCard input {
+    background-color: transparent !important;
+    border: 3px #262a36 solid !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    caret-color: white;
+    color: white !important;
+
+
+}
+
+.secCard input:hover {
+    border: 2px #009ad8 solid !important;
+
+}
+
+
+textarea {
+    background-color: transparent !important;
+    border: 3px #262a36 solid !important;
+    border-radius: 30px !important;
+    color: white;
+}
+
+textarea:hover {
+    border: 2px #009ad8 solid !important;
+}
+
+button {
+    background-color: #009ad8;
+    color: white;
+    border: none !important;
+}
+
+
+.site-footer {
+    background-color: #262a36;
+}
+
+
+.site-footer .btn {
+    position: absolute;
+    right: 2px;
+    bottom: 1px;
+    background-color: #009ad8;
+    color: white;
+    padding-inline: 15px;
+    border: 1px solid #009ad8 !important;
+    border-radius: 50px !important;
+    border: none !important;
+    padding-block: 15px;
+
+}
+
+.site-footer .btn :hover {
+
+    color: white !important;
+    background-color: #009ad8 !important;
+    border: none !important;
+
+}
+
+.site-footer input {
+    padding: 15px;
+}
+
+
+.fa-brands {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #1e202c;
+    color: #009ad8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.fa-brands:hover {
+    background-color: #009ad8;
+    color: white;
+}
+
+
+.copyRights {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #bfc1c8;
+}
+
+
+
+.site-footer input {
+    background-color: #1e202c !important;
+    border: 1px #1e202c solid !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    caret-color: white;
+    color: white !important;
+}
+
+
+.status{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #bfc1c8;
+}
+.warning{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    background-color: #262a36;
+    box-shadow: 1px 1px 50px rgba(38, 42, 54,50%) ;
+   
+    
+}
+.icones{
+    border-bottom: 2px gray solid;
+}
+
+.requiredParagrph{
+    color: white;
+    width: 160px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid rgba(255, 255, 255,80%);
+    animation: control-width 3s steps(22) 0.5s infinite,border 1s infinite ;
+}
+
+@keyframes control-width{
+    from{
+        width: 0;
+    }
+    to{
+        width: 160px;
+    }
+}
+
+@keyframes border {
+    from{
+        border-right-color: rgba(255, 255, 255,80%);
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.Success{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(70, 169, 70);
+   
+}
+
+.pageNotFound{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.Back{
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #054861;
+}
+.desc{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e1e25; 
+}
+
+.fa-less-than{
+    color: #036e65;
+}
+.err404{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #0e1e25; 
+}
+
+.supportGuide{
+    text-decoration: underline;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #054861;
+}
+.supportGuide:hover,.Back:hover{
+    text-decoration: none;
+}
+
+.navPages{
+    top: 35%;
+    left: 40%;
+
+}
+

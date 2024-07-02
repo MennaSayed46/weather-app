@@ -1,0 +1,296 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body {
+    background-color: #1e202c;
+}
+
+.tagline {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    color: #bfc1c8;
+}
+
+
+.weather {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+}
+
+.logo img {
+    width: 64px;
+    height: 38px;
+
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: transparent;
+    /* border: 2px solid #009ad8; */
+    /* border-radius: 15px; */
+}
+
+.nav-items-rest .nav-link {
+    color: white;
+}
+a{
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: transparent;
+    border: 2px solid #009ad8;
+    border-radius: 15px;
+    color: #009ad8;
+}
+
+.nav-item:hover .nav-link {
+    color: #009ad8;
+    transition: 0ms all ease-in;
+}
+
+.container-fluid {
+    background-image: url(imgs/banner.png);
+    background-size: cover;
+    height: 400px;
+    object-fit: cover;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+input {
+    background-color: #1e202c !important;
+    border: 1px #1e202c solid !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+    caret-color: white;
+    color: white !important;
+
+}
+
+input::placeholder {
+    color: #757575 !important;
+    padding-inline: 5px;
+}
+
+.btn-primary {
+    right: 10px;
+    bottom: 10px;
+    background-color: #009ad8;
+    color: white;
+    padding-inline: 15px;
+    border: 1px solid #009ad8 !important;
+    border-radius: 50px !important;
+    border: none !important;
+    padding-block: 10px;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #009ad8 !important;
+    border: none !important;
+}
+
+.date {
+    background-color: #2d313d;
+}
+
+.date p {
+    color: #bfc1c8;
+    margin-block: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.details {
+    background-color: #323544;
+}
+
+
+.directions img {
+    width: 21px;
+    height: 21px;
+    color: white;
+    background-size: cover;
+
+}
+
+.place {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #bfc1c8;
+}
+
+.temperature {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 135px;
+    color: white;
+}
+
+img[alt=moon] {
+    width: 90px;
+    height: 90px;
+}
+
+.clear {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #009ad8;
+}
+
+.directions p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #bfc1c8;
+}
+
+img[alt=sun] {
+    width: 48px;
+    height: 48px;
+}
+
+.morning-temp {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: white;
+}
+
+.evening-temp {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #bfc1c8;
+}
+
+.sunnySecCard {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    color: #009ad8;
+
+}
+
+.card {
+    background-color: #262a36
+}
+
+.detailsSecCard {
+    background-color: #262a36
+}
+
+.dateSecCard {
+    background-color: #222431;
+    color: #bfc1c8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.dateThirdCard {
+    background-color: #2d313d;
+    color: #bfc1c8;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+.thirdCard {
+    background-color: #323544;
+}
+
+
+.site-footer {
+    background-color: #262a36;
+}
+
+
+.site-footer .btn {
+    position: absolute;
+    right: 2px;
+    bottom: 1px;
+    background-color: #009ad8;
+    color: white;
+    padding-inline: 15px;
+    border: 1px solid #009ad8 !important;
+    border-radius: 50px !important;
+    border: none !important;
+    padding-block: 15px;
+
+}
+
+.site-footer .btn :hover {
+
+    color: white !important;
+    background-color: #009ad8 !important;
+    border: none !important;
+
+}
+
+.site-footer input {
+    padding: 15px;
+}
+
+
+.fa-brands {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+    border-radius: 50%;
+    background: #1e202c;
+    color: #009ad8;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+
+}
+
+.fa-brands:hover {
+    background-color: #009ad8;
+    color: white;
+}
+
+
+.copyRights {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #bfc1c8;
+}
+
+.cards{
+   margin-bottom: 50px;
+
+}
